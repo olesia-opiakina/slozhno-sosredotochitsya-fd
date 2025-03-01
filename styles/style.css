@@ -436,4 +436,8 @@
     min-block-size: 768px;
     inline-size: 100%;
   }
+
+  .footer__title {
+    text-shadow: 2px 2px 0 #ff0070;
+  }
 }
