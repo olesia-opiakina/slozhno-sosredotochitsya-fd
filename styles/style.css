@@ -1,12 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-/* * {
-  outline: 1px solid red;
-} */
-
-/* html,
-body {
-  overflow-x: hidden;
-} */
 
 .page {
   display: flex;
