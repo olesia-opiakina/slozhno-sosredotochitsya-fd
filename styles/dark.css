@@ -10,3 +10,7 @@
   --section-title-color: #ff0070;
   --footer-color: #db00ff;
 }
+
+.theme-dark .rec-element {
+  display: flex;
+}

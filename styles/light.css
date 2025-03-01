@@ -28,7 +28,8 @@
     --section-title-color: #353430;
     --footer-color: #ffc2e6;
   }
-  .theme-auto .rec-element {
+
+  .rec-element {
     display: none;
   }
 }
