@@ -123,6 +123,10 @@
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
+.header__description {
+  inline-size: 100%;
+}
+
 .title-decor {
   color: var(--accent-text-color);
   font-family: var(--font-family);
@@ -207,9 +211,11 @@
 }
 
 .image {
+  flex-shrink: 0;
   object-fit: cover;
   object-position: center;
   inline-size: 100%;
+  block-size: 100%;
 }
 
 .footer {
@@ -319,14 +325,8 @@
   }
 
   .card-list {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-  }
-
-  .image {
-    flex-shrink: 0;
-    block-size: 100%;
   }
 
   .sunset__image {
